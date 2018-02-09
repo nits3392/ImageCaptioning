@@ -1,3 +1,5 @@
+Copy the contents of the following folder /beegfs/ns3664/ImageCaptioning_Data/ into the running directory
+Also make a folder named checkpoint_dir inside the main directory where all the models would be generated
 
 To train run the command:
 python main.py --eval 0 --data_dir <MSCOCO Data Directory>
